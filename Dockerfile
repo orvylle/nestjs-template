@@ -5,7 +5,7 @@ WORKDIR /usr/src/app
 COPY . .
 RUN yarn && yarn build
 
-EXPOSE 5000
+EXPOSE 8080
 
 CMD [ "yarn", "run", "start:prod" ]
 
